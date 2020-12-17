@@ -8,10 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <nav class="navbar navbar-dark bg-primary">
     <div class="row">
-        <a href="/create" class="navbar-toggler" type="button">
-            <img src="/resources/images/icon.png" width="32" height="32">
-        </a>
+        <%--        <a href="/create" class="navbar-toggler" type="button">--%>
+        <%--            <img src="/resources/images/icon.png" width="32" height="32">--%>
+        <%--        </a>--%>
 
-        <a class="navbar-brand" href="/">To do app</a>
+        <a class="navbar-brand" style="margin-left: 10px" href="/">Home</a>
+        <a class="navbar-brand" href="/create">Add todo</a>
     </div>
 </nav>
